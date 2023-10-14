@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08abc60ba3aa4374d9801b4a0ad32ad9, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  dialoge:
+  - 'Hello I am Mr Tomato man
+
+    Bonjour j''ai m''appelle Tomtate'
+  - 'fly boi
+
+    me too me too'
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 4179763599124d0499432135357885b4, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 8eec876736b11bd4ea73d004e770dd3c, type: 2}
